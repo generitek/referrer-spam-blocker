@@ -502,6 +502,7 @@ sub block_referral_spam {
 		req.http.Referer ~ "(?i)coop\-gamers\.ru" ||
 		req.http.Referer ~ "(?i)copblock\.org" ||
 		req.http.Referer ~ "(?i)copyrightclaims\.org" ||
+		req.http.Referer ~ "(?i)copyrightinstitute\.org" ||
 		req.http.Referer ~ "(?i)countravel\.net" ||
 		req.http.Referer ~ "(?i)covadhosting\.biz" ||
 		req.http.Referer ~ "(?i)covetnica\.com" ||
